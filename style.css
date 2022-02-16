@@ -1,0 +1,70 @@
+html, body, #root {
+  margin: 0;
+  height: 100%;
+  background: radial-gradient(circle, #003963 0%, #0f151b 100%);
+  color: white;
+}
+#root h1{
+	font-size: 2em;
+	text-align:center;
+	width: 100%;
+	padding:0.5em 0;
+}
+#root form{
+	display: block;
+	margin: 0.5em auto;
+	width: 30%;
+
+}
+#root form input[type=text]{
+	border-size: 0.2em;
+	font-size:1.2em;
+	width: 100%;
+	height:1.3em;
+}
+#country_select{
+	font-size:1em;
+	width: 60%;
+	height:1.8em;
+}
+#root form input[type=submit]{
+	font-size:1em;
+	width: 30%;
+	height:1.8em;
+}
+#root form #country_select, #root form input[type=text],#root form input[type=submit]{
+	display: block;
+	margin: 0.3em auto;
+}
+#result{
+	margin: auto;
+	width: 50%;
+	list-style: none;
+}
+#result li{
+	padding: 2rem
+}
+.uni_name{
+	display: block;
+}
+#result li .uni_name{
+	font-size: 1.2rem
+}
+
+@media (max-width: 1300px) {
+	#result{
+		width: 90%;
+
+	}
+	#root form{
+		width: 60%;
+	}
+	
+}
+@media (max-width: 800px) {
+	#root form{
+		width: 90%;
+
+	}
+	
+}
