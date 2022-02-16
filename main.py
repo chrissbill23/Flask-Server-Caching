@@ -1,9 +1,6 @@
 from server import server
-from flask import Flask
 import webbrowser
 from threading import Timer
-from flask import render_template
-from werkzeug.serving import run_simple
 
 import os
 
