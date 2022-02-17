@@ -27,3 +27,6 @@ pip install strawberry-graphql
 python main.py
 ```
 4. **Enjoy!**
+
+![](screenshots/2.png)
+![](screenshots/1.png)
