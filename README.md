@@ -28,5 +28,5 @@ python main.py
 ```
 4. **Enjoy!**
 
-![](screenshots/2.png)
-![](screenshots/1.png)
+![](2.png)
+![](1.png)
